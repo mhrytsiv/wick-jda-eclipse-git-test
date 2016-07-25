@@ -1,0 +1,9 @@
+<definitions xmlns="http://ws.apache.org/ns/synapse">
+    <localEntry key="xq_FileTransportTransformation" src="file:repository/esb_resources/wso2.esb.poc/xq/FileTransportTransformation.xq"/>
+    <localEntry key="xq_PrepareDSSRequestAddStore" src="file:repository/esb_resources/wso2.esb.poc/xq/PrepareDSSRequestAddStore.xq"/>
+    <localEntry key="xq_PrepareDSSRequestGetUnprocessedData" src="file:repository/esb_resources/wso2.esb.poc/xq/PrepareDSSRequestGetUnprocessedData.xq"/>
+	<localEntry key="xq_ConvertDataFromXmlToTextPlain" src="file:repository/esb_resources/wso2.esb.poc/xq/ConvertDataFromXmlToTextPlain.xq"/>
+	<localEntry key="xq_PrepareDSSRequestToMarkDataProcessed" src="file:repository/esb_resources/wso2.esb.poc/xq/PrepareDSSRequestToMarkDataProcessed.xq"/>
+	<localEntry key="xq_PrepareSplitedUriXmls" src="file:repository/esb_resources/wso2.esb.poc/xq/PrepareSplitedUriXmls.xq"/>
+</definitions>
+
