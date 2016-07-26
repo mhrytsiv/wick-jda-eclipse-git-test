@@ -16,5 +16,9 @@ public class Reader {
 
 	private static void printStatus() {
 		System.out.println("readFile");
+		final int counFiles = 10;
+		for (int i = 0; i < counFiles; i++) {
+			readFile();
+		}
 	}
 }
