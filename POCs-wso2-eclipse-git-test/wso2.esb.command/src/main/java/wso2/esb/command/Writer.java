@@ -5,8 +5,8 @@ import java.io.File;
 public class Writer {
 
 	public static void write() {
-		String fileName = "data.txt";
-		File data = new File(fileName);
+		final String fileName = "test.txt";
+		final File data = new File(fileName);
 		writeToFile(data);
 	}
 

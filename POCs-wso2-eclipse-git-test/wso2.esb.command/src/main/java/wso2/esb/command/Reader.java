@@ -3,8 +3,8 @@ package wso2.esb.command;
 public class Reader {
 
 	public static void read() {
-		int files = 5;
-		for (int j = 0; j < files; j++) {
+		final int counFiles = 10;
+		for (int i = 0; i < counFiles; i++) {
 			readFile();
 			printStatus();
 		}
